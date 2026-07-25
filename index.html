@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhay Sharma | Data Science & AI Engineer</title>
+  <meta name="description" content="Abhay Sharma — Aspiring Data Science & AI Engineer. BTech CSE (AI & ML). RAG systems, Generative AI, Python, ML." />
+  <meta property="og:title" content="Abhay Sharma | Data Science & AI Engineer" />
+  <meta property="og:description" content="Data Science & AI Engineer — RAG Chatbot, ML projects, and generative AI." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-brand">
+      <span class="logo-glow">AS</span>
+      <span class="brand-text">ABHAY SHARMA</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="projects.html" class="nav-link">Projects</a></li>
+      <li><a href="experience.html" class="nav-link">Experience</a></li>
+      <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="assets/resume/Abhay_Sharma_Resume.pdf" class="btn btn-sm btn-outline" download>Resume</a>
+      <button class="theme-toggle" aria-label="Toggle theme">☀</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">OPEN TO INTERNSHIPS &amp; OPPORTUNITIES</div>
+      <h1 class="hero-title">
+        <span class="line">Hi, I'm Abhay</span>
+        <span class="line gradient-text">Sharma</span>
+      </h1>
+      <p class="hero-subtitle">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </p>
+      <div class="hero-cta">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="assets/resume/Abhay_Sharma_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+        <a href="contact.html" class="btn btn-outline">Contact</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="6">0</span>+<span class="stat-label">Projects</span></div>
+        <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Internships</span></div>
+        <div class="stat"><span class="stat-num" data-target="4">0</span><span class="stat-label">Certifications</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="hero-photo-frame">
+        <div class="hero-photo-ring"></div>
+        <img src="assets/images/profile.jpg" alt="Abhay Sharma" class="hero-photo" />
+        <div class="hero-photo-badge glass">
+          <span class="badge-dot"></span>
+          Data Science &amp; AI
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FEATURED</span>
+        <h2 class="section-title">Highlight Project</h2>
+      </div>
+      <article class="project-card glass featured">
+        <div class="project-badge">YATRA INTERNSHIP</div>
+        <div class="project-visual">
+          <div class="project-glow"></div>
+          <span class="project-emoji">📄</span>
+        </div>
+        <div class="project-body">
+          <h3>AI-Powered RAG Chatbot</h3>
+          <p>
+            Full-stack RAG chatbot built at Yatra. PDF upload → embeddings → ChromaDB → hybrid retrieval → Google Gemini answers with page citations.
+            JWT auth, MongoDB chat history, multi-session memory.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>Gemini</span><span>ChromaDB</span><span>MongoDB</span><span>JWT</span>
+          </div>
+          <div class="project-links">
+            <a href="projects.html" class="link">All projects →</a>
+            <a href="https://github.com/Abhay8170/RAG-ChatBot" target="_blank" rel="noopener" class="link">GitHub →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="text-align:center;">
+      <div class="section-header">
+        <span class="section-tag">QUICK LINKS</span>
+        <h2 class="section-title">Explore</h2>
+      </div>
+      <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <a href="about.html" class="skill-card glass" style="text-align:center;">
+          <div class="skill-icon">👤</div>
+          <h3>About Me</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Bio, education & skills</p>
+        </a>
+        <a href="experience.html" class="skill-card glass" style="text-align:center;">
+          <div class="skill-icon">💼</div>
+          <h3>Experience</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Yatra, CodeAlpha, Eduskills</p>
+        </a>
+        <a href="contact.html" class="skill-card glass" style="text-align:center;">
+          <div class="skill-icon">✉</div>
+          <h3>Contact</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Get in touch</p>
+        </a>
+        <a href="assets/resume/Abhay_Sharma_Resume.pdf" class="skill-card glass" style="text-align:center;" download>
+          <div class="skill-icon">📄</div>
+          <h3>Resume</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Download PDF</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-glow">AS</span>
+        <span>Abhay Sharma</span>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/Abhay8170" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/bhardwajabhay" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="footer-copy">© 2026 Abhay Sharma. Built with intent.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

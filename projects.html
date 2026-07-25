@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Abhay Sharma</title>
+  <meta name="description" content="Projects by Abhay Sharma — RAG Chatbot, SmartCampus, CampusLinkAI, and more." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-brand">
+      <span class="logo-glow">AS</span>
+      <span class="brand-text">ABHAY SHARMA</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="projects.html" class="nav-link active">Projects</a></li>
+      <li><a href="experience.html" class="nav-link">Experience</a></li>
+      <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="assets/resume/Abhay_Sharma_Resume.pdf" class="btn btn-sm btn-outline" download>Resume</a>
+      <button class="theme-toggle" aria-label="Toggle theme">☀</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <span class="section-tag">02 — PROJECTS</span>
+      <h1>Selected Work</h1>
+      <p>AI systems, full-stack apps, and internship projects</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI / GenAI</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass featured" data-category="ai">
+          <div class="project-badge">FEATURED · YATRA</div>
+          <div class="project-visual">
+            <div class="project-glow"></div>
+            <span class="project-emoji">📄</span>
+          </div>
+          <div class="project-body">
+            <h3>AI-Powered RAG Chatbot</h3>
+            <p>
+              Full-stack Retrieval-Augmented Generation chatbot built during my internship at Yatra.
+              PDF upload, Sentence Transformers embeddings, ChromaDB, hybrid retrieval, Google Gemini
+              answers with page-level citations. JWT auth, MongoDB chat history, multi-session memory.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>Flask</span><span>Gemini</span><span>ChromaDB</span>
+              <span>MongoDB</span><span>JWT</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abhay8170/RAG-ChatBot" target="_blank" rel="noopener" class="link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="java">
+          <div class="project-visual">
+            <div class="project-glow purple"></div>
+            <span class="project-emoji">🎓</span>
+          </div>
+          <div class="project-body">
+            <h3>SmartCampus Management System</h3>
+            <p>
+              Java console app for college final assessment. Students, courses, enrollments with
+              custom exceptions, multithreading, file persistence, and OOP design.
+            </p>
+            <div class="project-tags">
+              <span>Java</span><span>OOP</span><span>Multithreading</span><span>Maven</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abhay8170/gnc-java-final-assessment-smartcampus" target="_blank" rel="noopener" class="link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="frontend">
+          <div class="project-visual">
+            <div class="project-glow cyan"></div>
+            <span class="project-emoji">💙</span>
+          </div>
+          <div class="project-body">
+            <h3>CampusLinkAI</h3>
+            <p>
+              College dating app MVP — lightweight web prototype for campus social connections
+              with clean UI and interactive flows.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abhay8170/CampusLinkAI" target="_blank" rel="noopener" class="link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="frontend">
+          <div class="project-visual">
+            <div class="project-glow pink"></div>
+            <span class="project-emoji">🔢</span>
+          </div>
+          <div class="project-body">
+            <h3>CodeAlpha Calculator</h3>
+            <p>
+              Interactive web calculator from the CodeAlpha frontend internship.
+              Clean UI with arithmetic operations and responsive layout.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abhay8170/CodeAlpha_Calculator" target="_blank" rel="noopener" class="link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="frontend">
+          <div class="project-visual">
+            <div class="project-glow"></div>
+            <span class="project-emoji">🎵</span>
+          </div>
+          <div class="project-body">
+            <h3>CodeAlpha Music Player</h3>
+            <p>
+              Web-based music player interface from CodeAlpha — frontend design and media controls.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abhay8170/CodeAlpha_Music" target="_blank" rel="noopener" class="link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="frontend">
+          <div class="project-visual">
+            <div class="project-glow purple"></div>
+            <span class="project-emoji">🧾</span>
+          </div>
+          <div class="project-body">
+            <h3>One-Click Invoice Generator</h3>
+            <p>
+              Tool for freelancers to generate a clean, downloadable invoice from client details,
+              services, rates, and tax.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abhay8170/One-Click-Invoice-A-Simple-Freelancer-Invoice-Generator" target="_blank" rel="noopener" class="link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><span class="logo-glow">AS</span><span>Abhay Sharma</span></div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/Abhay8170" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="footer-copy">© 2026 Abhay Sharma</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
