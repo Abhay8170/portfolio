@@ -53,18 +53,10 @@ python -m http.server 8080
 
 ## Deploy (public link)
 
-### Netlify Drop (fastest)
-1. https://app.netlify.com/drop  
-2. Drag the `abhay-portfolio` folder  
-3. Copy the live URL  
-
 ### GitHub Pages
 1. Push this folder to a repo  
 2. Settings → Pages → Deploy from `main` (root)  
 3. Site at `https://Abhay8170.github.io` or `https://Abhay8170.github.io/repo-name`
-
-### Vercel
-Import the GitHub repo at vercel.com
 
 ## Share on LinkedIn
 
