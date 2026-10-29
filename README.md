@@ -63,7 +63,7 @@ python -m http.server 8080
 > Excited to share my personal portfolio 🚀  
 > Multi-page site with projects (including the RAG Chatbot from my Yatra internship), experience, certifications, and a downloadable resume.  
 >  
-> 🔗 Live: [YOUR_URL]  
+> 🔗 Live: https://abhay8170.github.io/portfolio/
 > 📂 GitHub: https://github.com/Abhay8170  
 >  
 > #OpenToWork #GenerativeAI #FullStack #RAG #StudentDeveloper
